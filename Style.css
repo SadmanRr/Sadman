@@ -1,0 +1,135 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+font-family: 'Handlee', cursive;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Dongle', sans-serif;
+}
+.section-title h3{
+    font-weight: bolder ;
+    margin-bottom: 0;
+}
+.hr-style{
+    border: 2px dotted rgb(250, 246, 246);
+    border-bottom: none;
+   
+}
+header{
+    background-image: url(Banner.jpg) ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.navbar{
+    padding: 1% 10%;
+    background-color:rgba(0,0,0,0.15);
+}
+.banner-container{
+    height: 100vh;
+}
+.navbar-icon{
+    color: aqua;
+}
+.navbar-brand{
+    width: 60px;
+    height: auto;
+}
+.nav-link{
+   color: beige; 
+   margin: 10px;
+   border-radius: 5px;
+   transition: 0.4s;
+}
+.nav-link:hover{
+  background: rgb(250, 180, 238);
+  outline-offset: white;
+  transform: scale(1.1);
+ }
+ .banner-container h1{
+     font-size: 3.5rem;
+     background-color:rgb(7,101, 189,0.4) ;
+     padding: 10px 20px;
+     border-radius: 5px;
+ }
+ /* header ends */
+
+ #features{
+     padding: 5% 10%;
+     background: #e8ded2;
+ }
+ .features-col{
+   border: 1px solid #ff02c0; 
+   border-radius: 5px; 
+   padding: 15px;
+   margin: 20px 0;
+   transition: .4s;
+ }
+ .features-col:hover{
+     transform: scale(1.1);
+     box-shadow: 2px 6px 5px rgb(130, 185, 202);
+ }
+ .icon-style{
+background:rgb(31, 44, 156) ;
+color: rgb(245, 114, 216);
+padding: 15px;
+margin: 5px 0;
+ }
+ .font-weight-bold{
+     font-size: 3.5rem;
+ }
+ .textsize{
+     font-size:3rem ;
+ }
+ .personal{
+     font-size: 2rem ;
+     font-weight: bolder;
+
+ }
+ #about-me{
+     padding:4% 10% ;
+     background-color: #e8ded2;
+ }
+ #about-me p{
+    font-size: 0.9rem;
+    margin-bottom:0 ; 
+    font-weight:light ;
+ }
+ .achieve-desc span{
+     font-weight: 700 !important;
+     
+ }
+ .star i{
+width: 20px;
+color: blue;
+ }
+ .size{
+     font-size: 3.5rem;
+     font-weight: bolder;
+     
+ }
+ #places{
+     padding: 4% 10%;
+     background: #a3d2ca;
+ }
+ .card{
+     transition: .4s;
+     overflow: hidden;
+     border: 1px solid #ff02;
+ }
+ /* img{
+    transition: .4s;
+    overflow: hidden;
+    border: 1px solid #ff02;
+ } */
+ .card:hover .malak{
+     transform: scale(1.1);
+     overflow: hidden;
+     box-shadow: 2px 6px 5px black;
+ }
+
+ 
